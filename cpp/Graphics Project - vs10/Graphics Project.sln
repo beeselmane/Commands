@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics Project", "Graphics Project.vcxproj", "{29FB46DF-5381-4A3E-8370-C2BE7C7C7FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FB46DF-5381-4A3E-8370-C2BE7C7C7FE5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29FB46DF-5381-4A3E-8370-C2BE7C7C7FE5}.Debug|Win32.Build.0 = Debug|Win32
+		{29FB46DF-5381-4A3E-8370-C2BE7C7C7FE5}.Release|Win32.ActiveCfg = Release|Win32
+		{29FB46DF-5381-4A3E-8370-C2BE7C7C7FE5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
