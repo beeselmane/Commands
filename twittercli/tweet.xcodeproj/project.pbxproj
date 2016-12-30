@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4FC51A1A82F7D8007688D3 /* tweet.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC5191A82F7D8007688D3 /* tweet.c */; };
+		8B4FC52B1A82F894007688D3 /* twitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC5291A82F894007688D3 /* twitter.c */; };
+		8B4FC52E1A82F97B007688D3 /* keystore.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC52C1A82F97B007688D3 /* keystore.c */; };
+		8B4FC5311A82FC80007688D3 /* libTwitter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC5241A82F7EC007688D3 /* libTwitter.dylib */; };
+		8B4FC5341A82FCE2007688D3 /* twitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC5291A82F894007688D3 /* twitter.c */; };
+		8B4FC5351A82FCE2007688D3 /* keystore.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC52C1A82F97B007688D3 /* keystore.c */; };
+		8B4FC53D1A82FD90007688D3 /* twitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4FC52A1A82F894007688D3 /* twitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4FC53E1A82FD90007688D3 /* base.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4FC5301A82FC42007688D3 /* base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4FC53F1A82FD90007688D3 /* keystore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4FC52D1A82F97B007688D3 /* keystore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4FC5401A82FD96007688D3 /* tw_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4FC52F1A82FBB3007688D3 /* tw_internal.h */; };
+		8B4FC5511A8300D6007688D3 /* oauth.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC54F1A8300D6007688D3 /* oauth.c */; };
+		8B4FC5521A8300D6007688D3 /* oauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4FC5501A8300D6007688D3 /* oauth.h */; };
+		8B4FC5531A8300E5007688D3 /* liboauth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC54B1A8300CA007688D3 /* liboauth.a */; };
+		8B4FC5561A830602007688D3 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC5381A82FD6B007688D3 /* libcrypto.dylib */; };
+		8B4FC5571A830606007688D3 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC5361A82FD65007688D3 /* libssl.dylib */; };
+		8B4FC5581A830609007688D3 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC53A1A82FD6E007688D3 /* libcurl.dylib */; };
+		8B4FC55C1A830A2C007688D3 /* http.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4FC55A1A830A2C007688D3 /* http.h */; };
+		8B4FC55E1A831392007688D3 /* action.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC55D1A831392007688D3 /* action.c */; };
+		8B4FC55F1A83139D007688D3 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FC5591A830A2C007688D3 /* http.c */; };
+		8B4FC5601A84393A007688D3 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC5381A82FD6B007688D3 /* libcrypto.dylib */; };
+		8B4FC5611A84393E007688D3 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC5361A82FD65007688D3 /* libssl.dylib */; };
+		8B4FC5621A843952007688D3 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FC53A1A82FD6E007688D3 /* libcurl.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4FC5321A82FCDD007688D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4FC50E1A82F7D8007688D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4FC5231A82F7EC007688D3;
+			remoteInfo = Twitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B4FC5141A82F7D8007688D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B4FC5161A82F7D8007688D3 /* tweet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tweet; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4FC5191A82F7D8007688D3 /* tweet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tweet.c; sourceTree = "<group>"; };
+		8B4FC5241A82F7EC007688D3 /* libTwitter.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTwitter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4FC5291A82F894007688D3 /* twitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = twitter.c; path = library/twitter.c; sourceTree = "<group>"; };
+		8B4FC52A1A82F894007688D3 /* twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = twitter.h; path = library/twitter.h; sourceTree = "<group>"; };
+		8B4FC52C1A82F97B007688D3 /* keystore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = keystore.c; path = library/keystore.c; sourceTree = "<group>"; };
+		8B4FC52D1A82F97B007688D3 /* keystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keystore.h; path = library/keystore.h; sourceTree = "<group>"; };
+		8B4FC52F1A82FBB3007688D3 /* tw_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tw_internal.h; path = library/tw_internal.h; sourceTree = "<group>"; };
+		8B4FC5301A82FC42007688D3 /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = base.h; path = library/base.h; sourceTree = "<group>"; };
+		8B4FC5361A82FD65007688D3 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		8B4FC5381A82FD6B007688D3 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		8B4FC53A1A82FD6E007688D3 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		8B4FC5421A83001A007688D3 /* action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = action.h; path = library/action.h; sourceTree = "<group>"; };
+		8B4FC54B1A8300CA007688D3 /* liboauth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liboauth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4FC54F1A8300D6007688D3 /* oauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oauth.c; sourceTree = "<group>"; };
+		8B4FC5501A8300D6007688D3 /* oauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oauth.h; sourceTree = "<group>"; };
+		8B4FC5591A830A2C007688D3 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = library/http.c; sourceTree = "<group>"; };
+		8B4FC55A1A830A2C007688D3 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = http.h; path = library/http.h; sourceTree = "<group>"; };
+		8B4FC55D1A831392007688D3 /* action.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = action.c; path = library/action.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4FC5131A82F7D8007688D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC5581A830609007688D3 /* libcurl.dylib in Frameworks */,
+				8B4FC5571A830606007688D3 /* libssl.dylib in Frameworks */,
+				8B4FC5561A830602007688D3 /* libcrypto.dylib in Frameworks */,
+				8B4FC5311A82FC80007688D3 /* libTwitter.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FC5211A82F7EC007688D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC5601A84393A007688D3 /* libcrypto.dylib in Frameworks */,
+				8B4FC5621A843952007688D3 /* libcurl.dylib in Frameworks */,
+				8B4FC5611A84393E007688D3 /* libssl.dylib in Frameworks */,
+				8B4FC5531A8300E5007688D3 /* liboauth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FC5481A8300CA007688D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4FC50D1A82F7D8007688D3 = {
+			isa = PBXGroup;
+			children = (
+				8B4FC5461A83009C007688D3 /* oauth */,
+				8B4FC5281A82F87F007688D3 /* library */,
+				8B4FC5181A82F7D8007688D3 /* tweet */,
+				8B4FC53C1A82FD74007688D3 /* Libraries */,
+				8B4FC5171A82F7D8007688D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4FC5171A82F7D8007688D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FC5161A82F7D8007688D3 /* tweet */,
+				8B4FC5241A82F7EC007688D3 /* libTwitter.dylib */,
+				8B4FC54B1A8300CA007688D3 /* liboauth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4FC5181A82F7D8007688D3 /* tweet */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FC5191A82F7D8007688D3 /* tweet.c */,
+			);
+			path = tweet;
+			sourceTree = "<group>";
+		};
+		8B4FC5281A82F87F007688D3 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FC5291A82F894007688D3 /* twitter.c */,
+				8B4FC52C1A82F97B007688D3 /* keystore.c */,
+				8B4FC55D1A831392007688D3 /* action.c */,
+				8B4FC5591A830A2C007688D3 /* http.c */,
+				8B4FC55A1A830A2C007688D3 /* http.h */,
+				8B4FC52A1A82F894007688D3 /* twitter.h */,
+				8B4FC5301A82FC42007688D3 /* base.h */,
+				8B4FC52D1A82F97B007688D3 /* keystore.h */,
+				8B4FC5421A83001A007688D3 /* action.h */,
+				8B4FC52F1A82FBB3007688D3 /* tw_internal.h */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+		8B4FC53C1A82FD74007688D3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FC53A1A82FD6E007688D3 /* libcurl.dylib */,
+				8B4FC5381A82FD6B007688D3 /* libcrypto.dylib */,
+				8B4FC5361A82FD65007688D3 /* libssl.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		8B4FC5461A83009C007688D3 /* oauth */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FC54F1A8300D6007688D3 /* oauth.c */,
+				8B4FC5501A8300D6007688D3 /* oauth.h */,
+			);
+			path = oauth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B4FC5221A82F7EC007688D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC53D1A82FD90007688D3 /* twitter.h in Headers */,
+				8B4FC53E1A82FD90007688D3 /* base.h in Headers */,
+				8B4FC53F1A82FD90007688D3 /* keystore.h in Headers */,
+				8B4FC5401A82FD96007688D3 /* tw_internal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FC5491A8300CA007688D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC55C1A830A2C007688D3 /* http.h in Headers */,
+				8B4FC5521A8300D6007688D3 /* oauth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B4FC5151A82F7D8007688D3 /* tweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4FC51D1A82F7D8007688D3 /* Build configuration list for PBXNativeTarget "tweet" */;
+			buildPhases = (
+				8B4FC5121A82F7D8007688D3 /* Sources */,
+				8B4FC5131A82F7D8007688D3 /* Frameworks */,
+				8B4FC5141A82F7D8007688D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4FC5331A82FCDD007688D3 /* PBXTargetDependency */,
+			);
+			name = tweet;
+			productName = tweet;
+			productReference = 8B4FC5161A82F7D8007688D3 /* tweet */;
+			productType = "com.apple.product-type.tool";
+		};
+		8B4FC5231A82F7EC007688D3 /* Twitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4FC5251A82F7EC007688D3 /* Build configuration list for PBXNativeTarget "Twitter" */;
+			buildPhases = (
+				8B4FC5201A82F7EC007688D3 /* Sources */,
+				8B4FC5211A82F7EC007688D3 /* Frameworks */,
+				8B4FC5221A82F7EC007688D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitter;
+			productName = Twitter;
+			productReference = 8B4FC5241A82F7EC007688D3 /* libTwitter.dylib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B4FC54A1A8300CA007688D3 /* oauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4FC54C1A8300CA007688D3 /* Build configuration list for PBXNativeTarget "oauth" */;
+			buildPhases = (
+				8B4FC5471A8300CA007688D3 /* Sources */,
+				8B4FC5481A8300CA007688D3 /* Frameworks */,
+				8B4FC5491A8300CA007688D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oauth;
+			productName = oauth;
+			productReference = 8B4FC54B1A8300CA007688D3 /* liboauth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4FC50E1A82F7D8007688D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Corona Industries LTD";
+				TargetAttributes = {
+					8B4FC5151A82F7D8007688D3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8B4FC5231A82F7EC007688D3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8B4FC54A1A8300CA007688D3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B4FC5111A82F7D8007688D3 /* Build configuration list for PBXProject "tweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B4FC50D1A82F7D8007688D3;
+			productRefGroup = 8B4FC5171A82F7D8007688D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4FC5151A82F7D8007688D3 /* tweet */,
+				8B4FC5231A82F7EC007688D3 /* Twitter */,
+				8B4FC54A1A8300CA007688D3 /* oauth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4FC5121A82F7D8007688D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC51A1A82F7D8007688D3 /* tweet.c in Sources */,
+				8B4FC52E1A82F97B007688D3 /* keystore.c in Sources */,
+				8B4FC52B1A82F894007688D3 /* twitter.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FC5201A82F7EC007688D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC55F1A83139D007688D3 /* http.c in Sources */,
+				8B4FC55E1A831392007688D3 /* action.c in Sources */,
+				8B4FC5341A82FCE2007688D3 /* twitter.c in Sources */,
+				8B4FC5351A82FCE2007688D3 /* keystore.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4FC5471A8300CA007688D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FC5511A8300D6007688D3 /* oauth.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4FC5331A82FCDD007688D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4FC5231A82F7EC007688D3 /* Twitter */;
+			targetProxy = 8B4FC5321A82FCDD007688D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B4FC51B1A82F7D8007688D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B4FC51C1A82F7D8007688D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B4FC51E1A82F7D8007688D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B4FC51F1A82F7D8007688D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B4FC5261A82F7EC007688D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B4FC5271A82F7EC007688D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B4FC54D1A8300CA007688D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B4FC54E1A8300CA007688D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4FC5111A82F7D8007688D3 /* Build configuration list for PBXProject "tweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FC51B1A82F7D8007688D3 /* Debug */,
+				8B4FC51C1A82F7D8007688D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4FC51D1A82F7D8007688D3 /* Build configuration list for PBXNativeTarget "tweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FC51E1A82F7D8007688D3 /* Debug */,
+				8B4FC51F1A82F7D8007688D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4FC5251A82F7EC007688D3 /* Build configuration list for PBXNativeTarget "Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FC5261A82F7EC007688D3 /* Debug */,
+				8B4FC5271A82F7EC007688D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4FC54C1A8300CA007688D3 /* Build configuration list for PBXNativeTarget "oauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4FC54D1A8300CA007688D3 /* Debug */,
+				8B4FC54E1A8300CA007688D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B4FC50E1A82F7D8007688D3 /* Project object */;
+}
