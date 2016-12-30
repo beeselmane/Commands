@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B46ADFE1AFC517800C58603 /* findx.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B46ADFD1AFC517800C58603 /* findx.c */; };
+		8B46AE051AFC549800C58603 /* commoncrypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B46AE041AFC549800C58603 /* commoncrypto.c */; };
+		8B46AE081AFC54E100C58603 /* libCrashReporterClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B46AE071AFC54E100C58603 /* libCrashReporterClient.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B46ADF81AFC517800C58603 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B46ADFA1AFC517800C58603 /* findx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = findx; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B46ADFD1AFC517800C58603 /* findx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = findx.c; sourceTree = "<group>"; };
+		8B46AE041AFC549800C58603 /* commoncrypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commoncrypto.c; sourceTree = "<group>"; };
+		8B46AE061AFC54CA00C58603 /* commoncrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commoncrypto.h; sourceTree = "<group>"; };
+		8B46AE071AFC54E100C58603 /* libCrashReporterClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCrashReporterClient.a; path = ../../misc/DK/Apple/libCrashReporterClient.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B46ADF71AFC517800C58603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B46AE081AFC54E100C58603 /* libCrashReporterClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B46ADF11AFC517800C58603 = {
+			isa = PBXGroup;
+			children = (
+				8B46AE071AFC54E100C58603 /* libCrashReporterClient.a */,
+				8B46ADFC1AFC517800C58603 /* findx */,
+				8B46ADFB1AFC517800C58603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B46ADFB1AFC517800C58603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B46ADFA1AFC517800C58603 /* findx */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B46ADFC1AFC517800C58603 /* findx */ = {
+			isa = PBXGroup;
+			children = (
+				8B46AE061AFC54CA00C58603 /* commoncrypto.h */,
+				8B46AE041AFC549800C58603 /* commoncrypto.c */,
+				8B46ADFD1AFC517800C58603 /* findx.c */,
+			);
+			path = findx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B46ADF91AFC517800C58603 /* findx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B46AE011AFC517800C58603 /* Build configuration list for PBXNativeTarget "findx" */;
+			buildPhases = (
+				8B46ADF61AFC517800C58603 /* Sources */,
+				8B46ADF71AFC517800C58603 /* Frameworks */,
+				8B46ADF81AFC517800C58603 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = findx;
+			productName = findx;
+			productReference = 8B46ADFA1AFC517800C58603 /* findx */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B46ADF21AFC517800C58603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Corona Industries LTD";
+				TargetAttributes = {
+					8B46ADF91AFC517800C58603 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B46ADF51AFC517800C58603 /* Build configuration list for PBXProject "findx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B46ADF11AFC517800C58603;
+			productRefGroup = 8B46ADFB1AFC517800C58603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B46ADF91AFC517800C58603 /* findx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B46ADF61AFC517800C58603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B46ADFE1AFC517800C58603 /* findx.c in Sources */,
+				8B46AE051AFC549800C58603 /* commoncrypto.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B46ADFF1AFC517800C58603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B46AE001AFC517800C58603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B46AE021AFC517800C58603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/developer/misc/DK/Apple,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B46AE031AFC517800C58603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/developer/misc/DK/Apple,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B46ADF51AFC517800C58603 /* Build configuration list for PBXProject "findx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B46ADFF1AFC517800C58603 /* Debug */,
+				8B46AE001AFC517800C58603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B46AE011AFC517800C58603 /* Build configuration list for PBXNativeTarget "findx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B46AE021AFC517800C58603 /* Debug */,
+				8B46AE031AFC517800C58603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B46ADF21AFC517800C58603 /* Project object */;
+}
